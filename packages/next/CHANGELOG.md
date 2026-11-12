@@ -1,5 +1,13 @@
 # @workflow/next
 
+## 5.1.1
+
+### Patch Changes
+
+- Updated dependencies [[`c88e158`](https://github.com/vercel/workflow/commit/c88e158eaed8c69a9aadb9ae0ef43d14d748ad25)]:
+  - @workflow/builders@5.1.1
+  - @workflow/core@5.5.1
+
 ## 5.1.0
 
 ### Minor Changes

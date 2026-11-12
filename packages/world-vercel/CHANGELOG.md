@@ -1,5 +1,11 @@
 # @workflow/world-vercel
 
+## 5.5.1
+
+### Patch Changes
+
+- [#5373](https://github.com/vercel/workflow/pull/5373) [`c88e158`](https://github.com/vercel/workflow/commit/c88e158eaed8c69a9aadb9ae0ef43d14d748ad25) Thanks [@VaguelySerious](https://github.com/VaguelySerious)! - Remove the `WORKFLOW_SEQUENTIAL_REPLAYS` opt-in. Flow messages always go to the workflow's flow topic, and a spec 9 run's orchestrator messages are kept to one invocation at a time by world-vercel. `isSequentialReplaysEnabled()` is deprecated and always returns `false`, and the flow queue trigger never sets `maxConcurrency`.
+
 ## 5.5.0
 
 ### Minor Changes

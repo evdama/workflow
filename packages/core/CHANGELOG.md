@@ -1,5 +1,13 @@
 # @workflow/core
 
+## 5.5.1
+
+### Patch Changes
+
+- Updated dependencies [[`c88e158`](https://github.com/vercel/workflow/commit/c88e158eaed8c69a9aadb9ae0ef43d14d748ad25), [`18586f5`](https://github.com/vercel/workflow/commit/18586f54bdfb9ce2f805f349d0464d07c8ec96ea), [`29094be`](https://github.com/vercel/workflow/commit/29094bed374ab6bc9d3ed3c500b61e93048968a6)]:
+  - @workflow/world-vercel@5.5.1
+  - @workflow/world-local@5.4.0
+
 ## 5.5.0
 
 ### Minor Changes

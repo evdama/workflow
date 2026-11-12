@@ -1,5 +1,15 @@
 # @workflow/world-local
 
+## 5.4.0
+
+### Minor Changes
+
+- [#5371](https://github.com/vercel/workflow/pull/5371) [`18586f5`](https://github.com/vercel/workflow/commit/18586f54bdfb9ce2f805f349d0464d07c8ec96ea) Thanks [@VaguelySerious](https://github.com/VaguelySerious)! - world-local (spec 9): coalesce a run's orchestrator messages that queue behind its running delivery into re-runs of it (up to 32, with the same `attempt`, the next `deliveryCount`, the same `invocationStartedAt`, and the resume timing of an absorbed hook wake; a `run.wakeUp()` message is never coalesced, so `waitForSleep()` then `wakeUp()` stays reliable); keep the run's gate across a handoff, whose redelivery covers the messages waiting behind it; and resolve an unstamped orchestrator message's spec from the run, so a spec 9 run's message from an older SDK is serialized with the run's other deliveries.
+
+### Patch Changes
+
+- [#5382](https://github.com/vercel/workflow/pull/5382) [`29094be`](https://github.com/vercel/workflow/commit/29094bed374ab6bc9d3ed3c500b61e93048968a6) Thanks [@VaguelySerious](https://github.com/VaguelySerious)! - `start()` now resolves only once the World's queue auth key is written to the data directory, so the CLI, the web UI and the app's other processes can read it as soon as the app has started.
+
 ## 5.3.0
 
 ### Minor Changes

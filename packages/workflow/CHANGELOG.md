@@ -1,5 +1,21 @@
 # workflow
 
+## 5.5.1
+
+### Patch Changes
+
+- Updated dependencies []:
+  - @workflow/cli@5.1.1
+  - @workflow/core@5.5.1
+  - @workflow/astro@5.0.10
+  - @workflow/nest@5.1.8
+  - @workflow/next@5.1.1
+  - @workflow/nitro@5.0.10
+  - @workflow/rollup@5.0.10
+  - @workflow/sveltekit@5.0.10
+  - @workflow/typescript-plugin@5.0.0
+  - @workflow/nuxt@5.0.10
+
 ## 5.5.0
 
 ### Minor Changes
